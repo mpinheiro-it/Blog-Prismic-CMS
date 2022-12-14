@@ -1,0 +1,74 @@
+.image {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto 5.5rem;
+}
+
+.header {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: .75rem;
+    font-weight: 700;
+
+    a {
+      transition: color .2s;
+
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+.infos {
+  margin-top: 1.25rem;
+  display: flex;
+
+  time,
+  address,
+  p {
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+
+    span {
+      font-size: .875rem;
+      margin-left: .5rem;
+    }
+  }
+
+  time {
+    margin: 0;
+    text-transform: capitalize;
+  }
+}
+
+.content {
+  margin-top: 4rem;
+}
+
+.paragraph {
+  margin-bottom: 3rem;
+
+  h2 {
+    font-size: 2.25rem;
+    margin-bottom: .75rem;
+    font-weight: 700;
+    margin-bottom: 2.75rem;
+  }
+
+  >div {
+    font-size: 1.125rem;
+    color: var(--body);
+    margin-bottom: 2rem;
+  }
+}
+
+.loading {
+  margin-top: 3rem;
+}

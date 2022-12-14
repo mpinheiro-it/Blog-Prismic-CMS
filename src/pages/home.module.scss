@@ -1,0 +1,17 @@
+// TODO
+.header {
+  margin: 2.5rem 0
+}
+
+.readMore {
+  font-size: 1.125;
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+
+  transition: color .2s;
+
+  &:hover {
+    color: var(--white)
+  }
+}

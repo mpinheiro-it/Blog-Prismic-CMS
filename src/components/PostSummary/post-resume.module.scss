@@ -1,0 +1,48 @@
+.article {
+  margin-bottom: 3.25rem;
+}
+
+.header {
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: .75rem;
+    font-weight: 700;
+
+    a {
+      transition: color .2s;
+
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+.infos {
+  margin-top: 1.25rem;
+  display: flex;
+
+  time,
+  address {
+    font-style: normal;
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: .875rem;
+      margin-left: .5rem;
+    }
+  }
+
+  time {
+    text-transform: capitalize;
+  }
+
+  address {
+    margin-left: 1.5rem;
+  }
+}
